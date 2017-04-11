@@ -117,6 +117,10 @@ hr.divider {
 	margin-right: 8px;
 }
 
+.side-bar a:hover {
+	opacity: .5;
+}
+
 .side-bar a:last-child {
 	margin-right: 0;
 }
@@ -136,6 +140,10 @@ textarea {
 	width: 100%;
 }
 
+input::placeholder {
+	opacity: 0.5;
+}
+
 textarea {
 	height: 300px;
 }
@@ -151,6 +159,42 @@ textarea {
 	border: none;
 	font-size: 1.2em;
 }
+
+/*==========================
+	Portfolio Page
+==========================*/
+
+	.img-div {
+		display: inline-block;
+		width: 298px;
+		margin-right: 30px;
+		margin-bottom: 30px;
+		position: relative;
+	}
+
+	.img-div img {
+		width: 100%;
+	}
+
+	.img-div p {
+		position: absolute;
+	    width: 100%;
+	    background: #4aaaa5;
+	    text-align: center;
+	    color: #fff;
+	    padding: 20px 0;
+	    font-size: 1.2em;
+	    bottom: 20px;
+	}
+
+	div.img-container div:nth-child(2n) {
+		margin-right: 0;
+	}
+
+	.img-container {
+		padding-top: 20px;
+		position: relative;
+	}
 
 /*========================
 	Footer 
